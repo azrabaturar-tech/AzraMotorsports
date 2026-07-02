@@ -1,8 +1,3 @@
 const menuBtn = document.getElementById('menuBtn');
-const navLinks = document.getElementById('navLinks');
-
-if (menuBtn && navLinks) {
-  menuBtn.addEventListener('click', () => {
-    navLinks.classList.toggle('show');
-  });
-}
+const nav = document.getElementById('nav');
+if (menuBtn && nav) menuBtn.addEventListener('click', () => nav.classList.toggle('nav-open'));

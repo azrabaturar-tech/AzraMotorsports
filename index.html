@@ -3,113 +3,94 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Grid Notes | F1 Blog</title>
+  <title>Azra Racing | F1 Blog</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="site-header">
-    <nav class="navbar">
-      <a class="logo" href="index.html">GRID<span>NOTES</span></a>
-      <button class="menu-btn" id="menuBtn">☰</button>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#latest">Latest</a></li>
-        <li><a href="#analysis">Analysis</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+    <a class="logo" href="index.html"><span>AZRA</span>RACING</a>
+    <nav id="nav">
+      <a href="#latest">Latest</a>
+      <a href="#analysis">Analysis</a>
+      <a href="#calendar">Calendar</a>
+      <a href="#about">About</a>
     </nav>
-
-    <section class="hero">
-      <div class="hero-text">
-        <p class="eyebrow">Independent Formula 1 commentary</p>
-        <h1>Sharp race takes, driver rumours, and McLaren-heavy opinions.</h1>
-        <p>Welcome to your own motorsport blog. Write race reviews, opinion pieces, rumours, driver ratings and analysis in your own voice.</p>
-        <a class="btn" href="articles/verstappen-piastri.html">Read featured article</a>
-      </div>
-      <div class="hero-card">
-        <p class="tag">Featured</p>
-        <h2>Could Verstappen replace Piastri at McLaren?</h2>
-        <p>A quick look at the rumours, McLaren’s current form, and why the team may not want to change its line-up.</p>
-      </div>
-    </section>
+    <button id="menuBtn" class="menu-btn">☰</button>
   </header>
 
   <main>
-    <section class="ticker">
-      <span>Race Reports</span>
-      <span>Driver Ratings</span>
-      <span>Rumour Watch</span>
-      <span>Strategy Analysis</span>
-      <span>Opinion</span>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="tag">F1 Opinion • McLaren • Driver Market</p>
+        <h1>Could Verstappen replace Piastri at McLaren?</h1>
+        <p>Rumours, team stability, and why McLaren may have little reason to change its current line-up.</p>
+        <a class="button" href="articles/verstappen-piastri.html">Read featured article</a>
+      </div>
+      <div class="hero-card">
+        <p>NEXT FEATURE</p>
+        <h2>Why McLaren's line-up works</h2>
+        <span>Coming soon</span>
+      </div>
     </section>
 
-    <section class="section" id="latest">
-      <div class="section-heading">
-        <p class="eyebrow">Latest posts</p>
-        <h2>From the paddock notebook</h2>
+    <section id="latest" class="section">
+      <div class="section-title">
+        <p>Newsroom</p>
+        <h2>Latest Articles</h2>
       </div>
-
       <div class="article-grid">
-        <article class="article-card main-article">
-          <p class="tag">Rumour Watch</p>
+        <article class="card">
+          <span>Opinion</span>
           <h3><a href="articles/verstappen-piastri.html">Could Verstappen replace Piastri at McLaren?</a></h3>
-          <p>Rumours have been spreading, but McLaren’s current driver line-up looks too strong to disturb right now.</p>
-          <div class="meta">By Azra · 4 min read</div>
+          <p>A quick look at the rumours and why a shock switch looks unlikely right now.</p>
         </article>
-
-        <article class="article-card">
-          <p class="tag">Analysis</p>
-          <h3>Why McLaren’s current duo works so well</h3>
-          <p>A look at balance, pressure, teamwork and why Norris and Piastri are such a strong pairing.</p>
-          <div class="meta">Coming soon</div>
+        <article class="card">
+          <span>Analysis</span>
+          <h3>Why tyres matter more than fans think</h3>
+          <p>A beginner-friendly explanation of race strategy, degradation, and pit windows.</p>
         </article>
-
-        <article class="article-card">
-          <p class="tag">Opinion</p>
-          <h3>What makes a perfect second driver?</h3>
-          <p>Not every teammate battle is about being number one. Sometimes, the strongest teams need balance.</p>
-          <div class="meta">Coming soon</div>
-        </article>
-
-        <article class="article-card">
-          <p class="tag">Race Notes</p>
-          <h3>Five things I noticed after race weekend</h3>
-          <p>A short weekly format for your thoughts after every Grand Prix.</p>
-          <div class="meta">Coming soon</div>
+        <article class="card">
+          <span>Race Report</span>
+          <h3>Weekend review: winners and losers</h3>
+          <p>Your space for a race summary after every Grand Prix weekend.</p>
         </article>
       </div>
     </section>
 
-    <section class="section split" id="analysis">
+    <section id="analysis" class="split-section">
       <div>
-        <p class="eyebrow">Your sections</p>
-        <h2>Build it like a real motorsport magazine.</h2>
-        <p class="muted">Use categories so your blog feels professional and easy to explore.</p>
+        <p class="tag">Categories</p>
+        <h2>Build your own motorsport portfolio.</h2>
+        <p>Use this website for opinion pieces, race reports, driver features, and short news updates. Keep writing in your own voice and slowly build a real journalism portfolio.</p>
       </div>
       <div class="category-list">
-        <a href="#">Race Reports</a>
-        <a href="#">Driver Features</a>
-        <a href="#">Rumour Watch</a>
-        <a href="#">Strategy Notes</a>
-        <a href="#">Opinion Pieces</a>
+        <span>Breaking News</span>
+        <span>Opinion</span>
+        <span>Race Reports</span>
+        <span>Driver Features</span>
+        <span>McLaren Watch</span>
+        <span>Strategy Notes</span>
       </div>
     </section>
 
-    <section class="section about" id="about">
-      <p class="eyebrow">About the writer</p>
-      <h2>Hi, I’m Azra.</h2>
-      <p>I’m building my own F1 writing space to practice motorsport journalism, share opinions, and create a portfolio. Expect race reactions, driver-focused pieces and honest fan analysis.</p>
+    <section id="calendar" class="section compact">
+      <div class="section-title">
+        <p>Planning</p>
+        <h2>Race Calendar</h2>
+      </div>
+      <div class="calendar-box">
+        <p><strong>Tip:</strong> Update this box before every race weekend with the next Grand Prix, session times, and what you want to write about.</p>
+      </div>
     </section>
 
-    <section class="section contact" id="contact">
-      <h2>Contact</h2>
-      <p>Want to reach me? Add your email or social media here.</p>
-      <a class="btn secondary" href="mailto:your-email@example.com">Email me</a>
+    <section id="about" class="about">
+      <h2>About Azra</h2>
+      <p>Hi, I'm Azra. I write about Formula 1, driver rumours, team dynamics, and race weekends. This site is my personal motorsport journalism space.</p>
     </section>
   </main>
 
   <footer>
-    <p>© 2026 Grid Notes. Made for GitHub Pages.</p>
+    <p>© 2026 Azra Racing. Built for GitHub Pages.</p>
   </footer>
 
   <script src="script.js"></script>
